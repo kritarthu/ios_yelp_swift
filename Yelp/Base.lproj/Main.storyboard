@@ -63,27 +63,27 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thai, Seafood" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xnk-yv-Czc">
-                                                    <rect key="frame" x="81" y="64.5" width="238" height="16"/>
+                                                    <rect key="frame" x="81" y="64" width="238" height="16"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d3i-qp-vbq">
-                                                    <rect key="frame" x="82" y="25.5" width="88" height="21"/>
+                                                    <rect key="frame" x="82" y="28" width="88" height="18"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="88" id="G1m-Wc-lsy"/>
-                                                        <constraint firstAttribute="height" constant="21" id="XkK-AV-wq7"/>
+                                                        <constraint firstAttribute="height" constant="18" id="XkK-AV-wq7"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="400 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4LA-LC-t9B">
-                                                    <rect key="frame" x="178" y="28.5" width="99" height="13.5"/>
+                                                    <rect key="frame" x="178" y="30.5" width="99" height="13.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="Xnk-yv-Czc" firstAttribute="top" secondItem="4LA-LC-t9B" secondAttribute="bottom" constant="22.5" id="1bg-Yq-oNJ"/>
+                                                <constraint firstItem="Xnk-yv-Czc" firstAttribute="top" secondItem="4LA-LC-t9B" secondAttribute="bottom" constant="20" id="1bg-Yq-oNJ"/>
                                                 <constraint firstItem="Xnk-yv-Czc" firstAttribute="top" secondItem="d3i-qp-vbq" secondAttribute="bottom" constant="18" id="3AC-Bv-mUc"/>
                                                 <constraint firstItem="Lpv-Sw-jrk" firstAttribute="leading" secondItem="U8R-I6-LoC" secondAttribute="trailing" constant="7" id="5sS-wp-DcJ"/>
                                                 <constraint firstAttribute="trailing" secondItem="Xnk-yv-Czc" secondAttribute="trailing" constant="1" id="7gQ-pl-sPy"/>
@@ -99,6 +99,7 @@
                                                 <constraint firstItem="U8R-I6-LoC" firstAttribute="top" secondItem="Q0Q-hu-tmr" secondAttribute="top" constant="9" id="W6z-Gm-Clg"/>
                                                 <constraint firstAttribute="trailing" secondItem="Lpv-Sw-jrk" secondAttribute="trailing" constant="1" id="WMn-oa-IwG"/>
                                                 <constraint firstItem="Xnk-yv-Czc" firstAttribute="top" secondItem="vNH-ol-9WN" secondAttribute="bottom" constant="37" id="ZYr-Cg-guv"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Xnk-yv-Czc" secondAttribute="bottom" constant="7" id="gdA-Os-wUr"/>
                                                 <constraint firstItem="4LA-LC-t9B" firstAttribute="leading" secondItem="d3i-qp-vbq" secondAttribute="trailing" constant="8" id="jXb-PA-4gJ"/>
                                                 <constraint firstItem="8d1-RU-Ds9" firstAttribute="leading" secondItem="vNH-ol-9WN" secondAttribute="trailing" constant="1" id="nCX-go-Ucn"/>
                                                 <constraint firstItem="xBg-jS-J7P" firstAttribute="leading" secondItem="4LA-LC-t9B" secondAttribute="trailing" constant="1" id="rpB-sA-wuj"/>
