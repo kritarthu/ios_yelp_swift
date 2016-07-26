@@ -120,7 +120,7 @@ class FIltersViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
     func dealsCode() -> [[String:String]] {
-        return [["name" : "deals", "code": "true"]]
+        return [["name" : "Yelp Deals", "code": "true"]]
     }
     
     func sorts() -> [[String:String]] {
